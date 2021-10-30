@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mList.add(findViewById(R.id.))
+        mList.add(findViewById(R.id.textView1));
     }
 
     @Override
@@ -74,10 +74,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {
-            outState.putBoolean("reply_visible", true);
-            outState.putString("reply_text", mReplyTextView.getText().toString());
-        }
+
     }
 
 
