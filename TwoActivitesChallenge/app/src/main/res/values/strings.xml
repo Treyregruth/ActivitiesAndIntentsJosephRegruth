@@ -1,3 +1,809 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TwoActivitesChallenge</string>
+    <string name="button_one_text">Text One</string>
+    <string name="button_two_text">Text Two</string>
+    <string name="button_three_text">Text Three</string>
+    <string name="text_one_title">Lorem Ipsum</string>
+    <string name="text_one">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis vitae eros non egestas. Suspendisse maximus vel elit in lacinia. Phasellus sed auctor nulla. Nam augue est, consectetur vel viverra a, fermentum id mauris. Phasellus bibendum feugiat massa, id sodales purus porttitor vel. Sed ut consectetur lectus. Donec sodales mollis neque, efficitur mollis elit fringilla at. Fusce in enim eget erat consequat sagittis. Nunc nec dolor est. Nulla rutrum felis nec ipsum vehicula, eget fringilla est dapibus. Suspendisse commodo vitae dui sed commodo.
+Quisque rhoncus volutpat metus eget bibendum. Aenean condimentum feugiat nibh, eu sollicitudin risus tempor eu. Curabitur et massa eu dolor condimentum dignissim ut nec sapien. Mauris diam augue, sodales eu elementum ut, imperdiet sit amet lorem. Vivamus porta ante scelerisque dui euismod feugiat. In pellentesque varius nunc vitae vehicula. Integer eu turpis pretium libero rutrum malesuada. Praesent nec velit iaculis, bibendum diam vel, sagittis diam. Praesent id enim in urna tempor ultricies. Etiam suscipit lacus id neque tempus feugiat. Sed pretium interdum volutpat. Sed vulputate nisi in enim viverra, vel porttitor nulla rutrum. Sed accumsan lectus sed euismod porta. Ut aliquet ipsum augue, nec egestas enim mollis eget. Vivamus sit amet condimentum sapien, quis luctus purus.
+Vivamus nec pellentesque arcu, et bibendum nisi. Vestibulum malesuada eros eu ligula tempor, in ultricies arcu elementum. Vestibulum non orci augue. Suspendisse commodo felis ac urna aliquet congue. Maecenas vitae dolor vitae lectus lobortis lobortis. Maecenas eget pretium nunc. Proin sed erat nunc. Nullam tempus mauris quis odio interdum imperdiet eget id nibh. Nam nec rutrum orci. Sed iaculis lorem sem, non dictum nisl iaculis eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Aliquam mauris metus, consectetur vitae tortor ac, elementum ullamcorper massa. Nam lacinia, elit ut finibus elementum, turpis leo lobortis ex, eu congue nisi risus sit amet felis. Sed sed odio blandit, placerat felis quis, cursus diam. Nam posuere, nisi vel sagittis interdum, lorem tortor auctor est, eget aliquam arcu nulla ac sapien. Sed suscipit consectetur risus, nec ullamcorper tellus aliquet eget. Vivamus ac posuere ex, a fermentum dolor. Quisque vitae magna nec mauris convallis aliquam porttitor quis odio. Fusce sed molestie risus. Vestibulum lobortis tortor porta justo ultrices, a semper nisi auctor. Etiam vestibulum quam lectus, scelerisque euismod metus venenatis pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin lectus nisl, dictum sed egestas a, scelerisque vitae ex. Aenean sodales volutpat fringilla.
+Proin et eros lobortis, mollis erat vel, varius neque. Duis non aliquam eros. Maecenas congue pharetra consequat. Quisque porttitor maximus elit, in imperdiet magna. Vivamus tempor id leo in pretium. Pellentesque cursus, augue in cursus accumsan, ex eros feugiat quam, non porttitor libero arcu sit amet leo. Nulla dignissim ac ex in bibendum. Duis massa lorem, laoreet in hendrerit a, mollis ac urna. Phasellus sem augue, viverra sit amet ultrices vel, rhoncus et nisl. Proin ut iaculis nulla, a lobortis urna. Phasellus non suscipit diam, ut molestie lacus. Quisque aliquet iaculis orci. Donec vel hendrerit nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+Curabitur accumsan, dui vel interdum laoreet, purus lorem dapibus erat, in pretium lacus dui quis elit. Mauris a purus pharetra, tristique purus ac, malesuada erat. Vivamus faucibus luctus dictum. Nullam orci velit, imperdiet nec eros quis, condimentum iaculis lacus. Suspendisse sed mi ac ipsum feugiat cursus a ut nisi. Vivamus risus ex, sollicitudin id pulvinar placerat, elementum eget magna. Ut sodales sem sodales nulla laoreet ultrices. Suspendisse vitae auctor augue, nec facilisis massa. Nunc a enim justo. Sed porta pharetra metus ut venenatis. Cras felis massa, aliquet pharetra lectus et, maximus viverra arcu.
+Suspendisse molestie, nisi in fermentum pulvinar, risus sem auctor libero, eget egestas lectus diam eu tellus. Quisque viverra scelerisque dui nec mattis. Mauris pellentesque consequat dui, vel euismod odio. Nam tincidunt varius lacus, quis vehicula leo pretium eget. Aenean non aliquam velit, in gravida tortor. Fusce a dolor nec quam euismod sagittis. Etiam eget mauris eget dui cursus laoreet in ac leo. Nunc accumsan eget lectus in venenatis. Integer nec est aliquam, sollicitudin elit sed, condimentum tellus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel euismod diam, non tincidunt risus. Nam malesuada a urna eget convallis. Nam sagittis metus at purus blandit euismod. Vestibulum tincidunt, sem vel pretium vehicula, sapien augue laoreet arcu, id interdum neque tortor a erat. Praesent facilisis maximus auctor. Donec faucibus enim ullamcorper lectus ultricies, eu hendrerit velit finibus. Quisque rutrum sollicitudin arcu, at facilisis libero convallis a.
+Maecenas molestie mauris id neque vestibulum, id hendrerit elit efficitur. Quisque ac porttitor quam. Integer lacinia dui sit amet magna sagittis dignissim. Ut pellentesque, quam a pellentesque iaculis, mauris lacus faucibus tortor, nec vulputate tortor diam a tellus. Vivamus elit nisl, elementum at vulputate pretium, dignissim ut libero. Pellentesque ultrices semper tellus tincidunt fringilla. Nulla et urna lectus. Integer et arcu et sapien facilisis aliquam a quis nisl. Mauris vitae nulla felis.
+In at elementum justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ante arcu, fringilla eu dolor ut, laoreet suscipit sem. In maximus quis eros ut placerat. Vivamus ac quam faucibus, auctor odio et, ultrices tellus. Maecenas volutpat, nibh ut efficitur sodales, lectus velit consequat leo, a feugiat tortor orci et leo. Sed et auctor augue. Praesent vehicula interdum aliquam. </string>
+    <string name="text_two_title">The Bee Movie Script</string>
+    <string name="text_two" tools:ignore="TypographyEllipsis">
+        Bee Movie Script
+According to all known laws
+of aviation,
+
+  
+there is no way a bee
+should be able to fly.
+
+  
+Its wings are too small to get
+its fat little body off the ground.
+
+  
+The bee, of course, flies anyway
+
+  
+because bees dont care
+what humans think is impossible.
+
+  
+Yellow, black. Yellow, black.
+Yellow, black. Yellow, black.
+
+  
+Ooh, black and yellow!
+Lets shake it up a little.
+
+  
+Barry! Breakfast is ready!
+
+  
+Ooming!
+
+  
+Hang on a second.
+
+  
+Hello?
+
+  
+- Barry?
+- Adam?
+
+  
+- Oan you believe this is happening?
+- I cant. Ill pick you up.
+
+  
+Looking sharp.
+
+  
+Use the stairs. Your father
+paid good money for those.
+
+  
+Sorry. Im excited.
+
+  
+Heres the graduate.
+Were very proud of you, son.
+
+  
+A perfect report card, all Bs.
+
+  
+Very proud.
+
+  
+Ma! I got a thing going here.
+
+  
+- You got lint on your fuzz.
+- Ow! Thats me!
+
+  
+- Wave to us! Well be in row 118,000.
+- Bye!
+
+  
+Barry, I told you,
+stop flying in the house!
+
+  
+- Hey, Adam.
+- Hey, Barry.
+
+  
+- Is that fuzz gel?
+- A little. Special day, graduation.
+
+  
+Never thought Id make it.
+
+  
+Three days grade school,
+three days high school.
+
+  
+Those were awkward.
+
+  
+Three days college. Im glad I took
+a day and hitchhiked around the hive.
+
+  
+You did come back different.
+
+  
+- Hi, Barry.
+- Artie, growing a mustache? Looks good.
+
+  
+- Hear about Frankie?
+- Yeah.
+
+  
+- You going to the funeral?
+- No, Im not going.
+
+  
+Everybody knows,
+sting someone, you die.
+
+  
+Dont waste it on a squirrel.
+Such a hothead.
+
+  
+I guess he could have
+just gotten out of the way.
+
+  
+I love this incorporating
+an amusement park into our day.
+
+  
+Thats why we dont need vacations.
+
+  
+Boy, quite a bit of pomp…
+under the circumstances.
+
+  
+- Well, Adam, today we are men.
+- We are!
+
+  
+- Bee-men.
+- Amen!
+
+  
+Hallelujah!
+
+  
+Students, faculty, distinguished bees,
+
+  
+please welcome Dean Buzzwell.
+
+  
+Welcome, New Hive Oity
+graduating class of…
+
+  
+...9:15.
+
+  
+That concludes our ceremonies.
+
+  
+And begins your career
+at Honex Industries!
+
+  
+Will we pick ourjob today?
+
+  
+I heard its just orientation.
+
+  
+Heads up! Here we go.
+
+  
+Keep your hands and antennas
+inside the tram at all times.
+
+  
+- Wonder what itll be like?
+- A little scary.
+
+  
+Welcome to Honex,
+a division of Honesco
+
+  
+and a part of the Hexagon Group.
+
+  
+This is it!
+
+  
+Wow.
+
+  
+Wow.
+
+  
+We know that you, as a bee,
+have worked your whole life
+
+  
+to get to the point where you
+can work for your whole life.
+
+  
+Honey begins when our valiant Pollen
+Jocks bring the nectar to the hive.
+
+  
+Our top-secret formula
+
+  
+is automatically color-corrected,
+scent-adjusted and bubble-contoured
+
+  
+into this soothing sweet syrup
+
+  
+with its distinctive
+golden glow you know as...
+
+  
+Honey!
+
+  
+- That girl was hot.
+- Shes my cousin!
+
+  
+- She is?
+- Yes, were all cousins.
+
+  
+- Right. Youre right.
+- At Honex, we constantly strive
+
+  
+to improve every aspect
+of bee existence.
+
+  
+These bees are stress-testing
+a new helmet technology.
+
+  
+- What do you think he makes?
+- Not enough.
+
+  
+Here we have our latest advancement,
+the Krelman.
+
+  
+- What does that do?
+- Oatches that little strand of honey
+
+  
+that hangs after you pour it.
+Saves us millions.
+
+  
+Oan anyone work on the Krelman?
+
+  
+Of course. Most bee jobs are
+small ones. But bees know
+
+  
+that every small job,
+if its done well, means a lot.
+
+  
+But choose carefully
+
+  
+because youll stay in the job
+you pick for the rest of your life.
+
+  
+The same job the rest of your life?
+I didnt know that.
+
+  
+Whats the difference?
+
+  
+Youll be happy to know that bees,
+as a species, havent had one day off
+
+  
+in 27 million years.
+
+  
+So youll just work us to death?
+
+  
+Well sure try.
+
+  
+Wow! That blew my mind!
+
+  
+"Whats the difference?"
+How can you say that?
+
+  
+One job forever?
+Thats an insane choice to have to make.
+
+  
+Im relieved. Now we only have
+to make one decision in life.
+
+  
+But, Adam, how could they
+never have told us that?
+
+  
+Why would you question anything?
+Were bees.
+
+  
+Were the most perfectly
+functioning society on Earth.
+
+  
+You ever think maybe things
+work a little too well here?
+
+  
+Like what? Give me one example.
+
+  
+I dont know. But you know
+what Im talking about.
+
+  
+Please clear the gate.
+Royal Nectar Force on approach.
+
+  
+Wait a second. Oheck it out.
+
+  
+- Hey, those are Pollen Jocks!
+- Wow.
+
+  
+Ive never seen them this close.
+
+  
+They know what its like
+outside the hive.
+
+  
+Yeah, but some dont come back.
+
+  
+- Hey, Jocks!
+- Hi, Jocks!
+
+  
+You guys did great!
+
+  
+Youre monsters!
+Youre sky freaks! I love it! I love it!
+
+  
+- I wonder where they were.
+- I dont know.
+
+  
+Their days not planned.
+
+  
+Outside the hive, flying who knows
+where, doing who knows what.
+
+  
+You cantjust decide to be a Pollen
+Jock. You have to be bred for that.
+
+  
+Right.
+
+  
+Look. Thats more pollen
+than you and I will see in a lifetime.
+
+  
+Its just a status symbol.
+Bees make too much of it.
+
+  
+Perhaps. Unless youre wearing it
+and the ladies see you wearing it.
+
+  
+Those ladies?
+Arent they our cousins too?
+
+  
+Distant. Distant.
+
+  
+Look at these two.
+
+  
+- Oouple of Hive Harrys.
+- Lets have fun with them.
+
+  
+It must be dangerous
+being a Pollen Jock.
+
+  
+Yeah. Once a bear pinned me
+against a mushroom!
+
+  
+He had a paw on my throat,
+and with the other, he was slapping me!
+
+  
+- Oh, my!
+- I never thought Id knock him out.
+
+  
+What were you doing during this?
+
+  
+Trying to alert the authorities.
+
+  
+I can autograph that.
+
+  
+A little gusty out there today,
+wasnt it, comrades?
+
+  
+Yeah. Gusty.
+
+  
+Were hitting a sunflower patch
+six miles from here tomorrow.
+
+  
+- Six miles, huh?
+- Barry!
+
+  
+A puddle jump for us,
+but maybe youre not up for it.
+
+  
+- Maybe I am.
+- You are not!
+
+  
+Were going 0900 at J-Gate.
+
+  
+What do you think, buzzy-boy?
+Are you bee enough?
+
+  
+I might be. It all depends
+on what 0900 means.
+
+  
+Hey, Honex!
+
+  
+Dad, you surprised me.
+
+  
+You decide what youre interested in?
+
+  
+- Well, theres a lot of choices.
+- But you only get one.
+
+  
+Do you ever get bored
+doing the same job every day?
+
+  
+Son, let me tell you about stirring.
+
+  
+You grab that stick, and you just
+move it around, and you stir it around.
+
+  
+You get yourself into a rhythm.
+Its a beautiful thing.
+
+  
+You know, Dad,
+the more I think about it,
+
+  
+maybe the honey field
+just isnt right for me.
+
+  
+You were thinking of what,
+making balloon animals?
+
+  
+Thats a bad job
+for a guy with a stinger.
+
+  
+Janet, your sons not sure
+he wants to go into honey!
+
+  
+- Barry, you are so funny sometimes.
+- Im not trying to be funny.
+
+  
+Youre not funny! Youre going
+into honey. Our son, the stirrer!
+
+  
+- Youre gonna be a stirrer?
+- No ones listening to me!
+
+  
+Wait till you see the sticks I have.
+
+  
+I could say anything right now.
+Im gonna get an ant tattoo!
+
+  
+Lets open some honey and celebrate!
+
+  
+Maybe Ill pierce my thorax.
+Shave my antennae.
+
+  
+Shack up with a grasshopper. Get
+a gold tooth and call everybody "dawg"!
+
+  
+Im so proud.
+
+  
+- Were starting work today!
+- Todays the day.
+
+  
+Oome on! All the good jobs
+will be gone.
+
+  
+Yeah, right.
+
+  
+Pollen counting, stunt bee, pouring,
+stirrer, front desk, hair removal...
+
+  
+- Is it still available?
+- Hang on. Two left!
+
+  
+One of thems yours! Oongratulations!
+Step to the side.
+
+  
+- Whatd you get?
+- Picking crud out. Stellar!
+
+  
+Wow!
+
+  
+Oouple of newbies?
+
+  
+Yes, sir! Our first day! We are ready!
+
+  
+Make your choice.
+
+  
+- You want to go first?
+- No, you go.
+
+  
+Oh, my. Whats available?
+
+  
+Restroom attendants open,
+not for the reason you think.
+
+  
+- Any chance of getting the Krelman?
+- Sure, youre on.
+
+  
+Im sorry, the Krelman just closed out.
+
+  
+Wax monkeys always open.
+
+  
+The Krelman opened up again.
+
+  
+What happened?
+
+  
+A bee died. Makes an opening. See?
+Hes dead. Another dead one.
+
+  
+Deady. Deadified. Two more dead.
+
+  
+Dead from the neck up.
+Dead from the neck down. Thats life!
+
+  
+Oh, this is so hard!
+
+  
+Heating, cooling,
+stunt bee, pourer, stirrer,
+
+  
+humming, inspector number seven,
+lint coordinator, stripe supervisor,
+
+  
+mite wrangler. Barry, what
+do you think I should... Barry?
+
+  
+Barry!
+
+  
+All right, weve got the sunflower patch
+in quadrant nine...
+
+  
+What happened to you?
+Where are you?
+
+  
+- Im going out.
+- Out? Out where?
+
+  
+- Out there.
+- Oh, no!
+
+  
+I have to, before I go
+to work for the rest of my life.
+
+  
+Youre gonna die! Youre crazy! Hello?
+
+  
+Another call coming in.
+
+  
+If anyones feeling brave,
+theres a Korean deli on 83rd
+
+  
+that gets their roses today.
+
+  
+Hey, guys.
+
+  
+- Look at that.
+- Isnt that the kid we saw yesterday?
+
+  
+Hold it, son, flight decks restricted.
+
+  
+Its OK, Lou. Were gonna take him up.
+
+  
+Really? Feeling lucky, are you?
+
+  
+Sign here, here. Just initial that.
+
+  
+- Thank you.
+- OK.
+
+  
+You got a rain advisory today,
+
+  
+and as you all know,
+bees cannot fly in rain.
+
+  
+So be careful. As always,
+watch your brooms,
+
+  
+hockey sticks, dogs,
+birds, bears and bats.
+
+  
+Also, I got a couple of reports
+of root beer being poured on us.
+
+  
+Murphys in a home because of it,
+babbling like a cicada!
+
+  
+- Thats awful.
+- And a reminder for you rookies,
+
+  
+bee law number one,
+absolutely no talking to humans!
+
+  
+All right, launch positions!
+
+  
+Buzz, buzz, buzz, buzz! Buzz, buzz,
+buzz, buzz! Buzz, buzz, buzz, buzz!
+
+  
+Black and yellow
+    </string>
+    <string name="text_three_title">Android (operating system)</string>
+    <string name="text_three">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.
+
+It is free and open-source software; its source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. However most Android devices ship with additional proprietary software pre-installed,[12] most notably Google Mobile Services (GMS)[13] which includes core apps such as Google Chrome, the digital distribution platform Google Play and associated Google Play Services development platform.
+
+Over 70 percent of Android smartphones run Googles ecosystem; some with vendor-customized user interface and software suite, such as TouchWiz and later One UI by Samsung, and HTC Sense.[14] Competing Android ecosystems and forks include Fire OS (developed by Amazon) or LineageOS. However the "Android" name and logo are trademarks of Google which impose standards to restrict "uncertified" devices outside their ecosystem to use Android branding.[15][16]
+
+The source code has been used to develop variants of Android on a range of other electronics, such as game consoles, digital cameras, portable media players, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google. Software packages on Android, which use the APK format, are generally distributed through proprietary application stores like Google Play Store, Samsung Galaxy Store, Huawei AppGallery, Cafe Bazaar, and GetJar, or open source platforms like Aptoide or F-Droid.
+
+Android has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2021, it has over three billion monthly active users, the largest installed base of any operating system, and as of January 2021, the Google Play Store features over 3 million apps.[17] Android 12, released on October 4, 2021, is the latest version.[3]
+    Android Inc. was founded in Palo Alto, California, in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.[18][19] Rubin described the Android project as having "tremendous potential in developing smarter mobile devices that are more aware of its owners location and preferences".[19] The early intentions of the company were to develop an advanced operating system for digital cameras, and this was the basis of its pitch to investors in April 2004.[20] The company then decided that the market for cameras was not large enough for its goals, and five months later it had diverted its efforts and was pitching Android as a handset operating system that would rival Symbian and Microsoft Windows Mobile.[20][21]
+
+Rubin had difficulty attracting investors early on, and Android was facing eviction from its office space. Steve Perlman, a close friend of Rubin, brought him $10,000 in cash in an envelope, and shortly thereafter wired an undisclosed amount as seed funding. Perlman refused a stake in the company, and has stated "I did it because I believed in the thing, and I wanted to help Andy."[22][23]
+
+In 2005, Rubin tried to negotiate deals with Samsung[24] and HTC.[25] Shortly afterwards, Google acquired the company in July of that year for at least $50 million;[19][26] this was Googles "best deal ever" according to Googles then-vice president of corporate development, David Lawee, in 2010.[24] Androids key employees, including Rubin, Miner, Sears, and White, joined Google as part of the acquisition.[19] Not much was known about the secretive Android Inc. at the time, with the company having provided few details other than that it was making software for mobile phones.[19] At Google, the team led by Rubin developed a mobile device platform powered by the Linux kernel. Google marketed the platform to handset makers and carriers on the promise of providing a flexible, upgradeable system.[27] Google had "lined up a series of hardware components and software partners and signaled to carriers that it was open to various degrees of cooperation".[attribution needed][28]
+
+Speculation about Googles intention to enter the mobile communications market continued to build through December 2006.[29] An early prototype had a close resemblance to a BlackBerry phone, with no touchscreen and a physical QWERTY keyboard, but the arrival of 2007s Apple iPhone meant that Android "had to go back to the drawing board".[30][31] Google later changed its Android specification documents to state that "Touchscreens will be supported", although "the Product was designed with the presence of discrete physical buttons as an assumption, therefore a touchscreen cannot completely replace physical buttons".[32] By 2008, both Nokia and BlackBerry announced touch-based smartphones to rival the iPhone 3G, and Androids focus eventually switched to just touchscreens. The first commercially available smartphone running Android was the HTC Dream, also known as T-Mobile G1, announced on September 23, 2008.[33][34]
+    On November 5, 2007, the Open Handset Alliance, a consortium of technology companies including Google, device manufacturers such as HTC, Motorola and Samsung, wireless carriers such as Sprint and T-Mobile, and chipset makers such as Qualcomm and Texas Instruments, unveiled itself, with a goal to develop "the first truly open and comprehensive platform for mobile devices".[35][36][37] Within a year, the Open Handset Alliance faced two other open source competitors, the Symbian Foundation and the LiMo Foundation, the latter also developing a Linux-based mobile operating system like Google. In September 2007, InformationWeek covered an Evalueserve study reporting that Google had filed several patent applications in the area of mobile telephony.[38][39]
+
+Since 2008, Android has seen numerous updates which have incrementally improved the operating system, adding new features and fixing bugs in previous releases. Each major release is named in alphabetical order after a dessert or sugary treat, with the first few Android versions being called "Cupcake", "Donut", "Eclair", and "Froyo", in that order. During its announcement of Android KitKat in 2013, Google explained that "Since these devices make our lives so sweet, each Android version is named after a dessert", although a Google spokesperson told CNN in an interview that "Its kind of like an internal team thing, and we prefer to be a little bit — how should I say — a bit inscrutable in the matter, Ill say".[40]
+
+In 2010, Google launched its Nexus series of devices, a lineup in which Google partnered with different device manufacturers to produce new devices and introduce new Android versions. The series was described as having "played a pivotal role in Androids history by introducing new software iterations and hardware standards across the board", and became known for its "bloat-free" software with "timely … updates".[41] At its developer conference in May 2013, Google announced a special version of the Samsung Galaxy S4, where, instead of using Samsungs own Android customization, the phone ran "stock Android" and was promised to receive new system updates fast.[42] The device would become the start of the Google Play edition program, and was followed by other devices, including the HTC One Google Play edition,[43] and Moto G Google Play edition.[44] In 2015, Ars Technica wrote that "Earlier this week, the last of the Google Play edition Android phones in Googles online storefront were listed as "no longer available for sale" and that "Now theyre all gone, and it looks a whole lot like the program has wrapped up".[45][46]
+    From 2008 to 2013, Hugo Barra served as product spokesperson, representing Android at press conferences and Google I/O, Googles annual developer-focused conference. He left Google in August 2013 to join Chinese phone maker Xiaomi.[47][48] Less than six months earlier, Googles then-CEO Larry Page announced in a blog post that Andy Rubin had moved from the Android division to take on new projects at Google, and that Sundar Pichai would become the new Android lead.[49][50] Pichai himself would eventually switch positions, becoming the new CEO of Google in August 2015 following the companys restructure into the Alphabet conglomerate,[51][52] making Hiroshi Lockheimer the new head of Android.[53][54]
+
+On Android 4.4 Kit Kat, shared writing access to MicroSD memory cards has been locked for user-installed applications, to which only the dedicated directories with respective package names, located inside Android/data/, remained writeable. Writing access has been reinstated with Android 5 Lollipop through the backwards-incompatible Google Storage Access Framework interface.[55]
+
+In June 2014, Google announced Android One, a set of "hardware reference models" that would "allow [device makers] to easily create high-quality phones at low costs", designed for consumers in developing countries.[56][57][58] In September, Google announced the first set of Android One phones for release in India.[59][60] However, Recode reported in June 2015 that the project was "a disappointment", citing "reluctant consumers and manufacturing partners" and "misfires from the search company that has never quite cracked hardware".[61] Plans to relaunch Android One surfaced in August 2015,[62] with Africa announced as the next location for the program a week later.[63][64] A report from The Information in January 2017 stated that Google is expanding its low-cost Android One program into the United States, although The Verge notes that the company will presumably not produce the actual devices itself.[65][66] Google introduced the Pixel and Pixel XL smartphones in October 2016, marketed as being the first phones made by Google,[67][68] and exclusively featured certain software features, such as the Google Assistant, before wider rollout.[69][70] The Pixel phones replaced the Nexus series,[71] with a new generation of Pixel phones launched in October 2017.[72]
+
+In May 2019, the operating system became entangled in the trade war between China and the United States involving Huawei, which, like many other tech firms, had become dependent on access to the Android platform.[73][74] In the summer of 2019, Huawei announced it would create an alternative operating system to Android[75] known as Harmony OS,[76] and has filed for intellectual property rights across major global markets.[77][78] Huawei does not currently have any plans to replace Android in the near future, as Harmony OS is designed for internet of things devices, rather than for smartphones.[79]
+
+On August 22, 2019, it was announced that Android "Q" would officially be branded as Android 10, ending the historic practice of naming major versions after desserts. Google stated that these names were not "inclusive" to international users (due either to the aforementioned foods not being internationally known, or being difficult to pronounce in some languages).[80][81] On the same day, Android Police reported that Google had commissioned a statue of a giant number "10" to be installed in the lobby of the developers new office.[82] Android 10 was released on September 3, 2019 to Google Pixel phones first.
+
+With scoped storage, conventional writing access to the shared internal user storage has been locked, and only app-specific directories remain accessible as usual. Files and directories outside only remain accessible through the backwards-incompatible Storage Access Framework. While these restrictions are claimed to improve user privacy, private app-specific directories already existed under /data/ since early versions of the operating system.[83] </string>
+
 </resources>
