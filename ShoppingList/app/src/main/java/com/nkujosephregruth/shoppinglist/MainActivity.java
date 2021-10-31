@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private ArrayList<TextView> mList = new ArrayList<>(10);
+    private static ArrayList<String> saveList = new ArrayList<>(10);
 
     public static final String EXTRA_MESSAGE = "com.nkujosephregruth.lifecycleandstate.extra.MESSAGE";
     public static final int TEXT_REQUEST = 1;
@@ -28,6 +29,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mList.add(findViewById(R.id.textView1));
+        mList.add(findViewById(R.id.textView2));
+        mList.add(findViewById(R.id.textView3));
+        mList.add(findViewById(R.id.textView4));
+        mList.add(findViewById(R.id.textView5));
+        mList.add(findViewById(R.id.textView6));
+        mList.add(findViewById(R.id.textView7));
+        mList.add(findViewById(R.id.textView8));
+        mList.add(findViewById(R.id.textView9));
+        mList.add(findViewById(R.id.textView10));
+        if(savedInstanceState != null) {
+            saveList = savedInstanceState.getStringArrayList("list");
+            for(int y = 0; y < mList.size(); y++) {
+                if(!saveList.get(y).equals("")) {
+                    mList.get(y).setText(saveList.get(y));
+                }
+            }
+        }
+        else {
+            for (int x = 0; x < 10; x++) {
+                saveList.add("");
+            }
+        }
     }
 
     @Override
@@ -69,12 +92,32 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == TEXT_REQUEST) {
+            if(resultCode == RESULT_OK) {
+                String reply = data.getStringExtra(SecondActivity.EXTRA_REPLY);
+                for(int x = 0; x < saveList.size(); x++) {
+                    if(saveList.get(x).equals("")) {
+                        reply = "1 " + reply;
+                        mList.get(x).setText(reply);
+                        saveList.set(x, reply);
+                        return;
+                    }
+                    else if(saveList.get(x).contains(reply)) {
+                        int nextNum = Integer.parseInt(saveList.get(x).substring(0, saveList.get(x).indexOf(" "))) + 1;
+                        reply = nextNum + " " + reply;
+                        saveList.set(x, reply);
+                        mList.get(x).setText(reply);
+                        return;
+                    }
+                }
+            }
+        }
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
+        outState.putStringArrayList("list", saveList);
     }
 
 
